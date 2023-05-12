@@ -6,15 +6,14 @@ def sumOfLeftLeaves(root):
         """
         :type root: TreeNode
         :rtype: int
-        """
-        """
+
         Time:12mins 18sec
         Solve: yes
         Difficulty: Easy 
-        Comments: This is a classic tree search question that stutter me in the beginning because I was trying to implement it in recursion,
+        Comments: 
+        This is a classic tree search question that stutter me in the beginning because I was trying to implement it in recursion,
         but I couldn't think about it(IMO: I'm just bad at recursion), I think iteration is easier because you just need a stack or Queue
         and everytime at a node just check whether it has a left node or not, then check whether this node is a leaf or not . 
-
         """
         stack = []
         stack.append(root)
