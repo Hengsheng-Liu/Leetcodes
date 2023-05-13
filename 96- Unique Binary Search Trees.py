@@ -11,7 +11,6 @@ def numTrees(n):
         and no coding involve. One thing I learn is that for i in range of () if is same number then the loop will not execute in which
         took me forever to debug. Pretty good DP question though. Tycially you could just cheap by applying using the Catalan formula 
     """
-    """
     dp = [0]*(n+1)
     dp[0] = 1
     dp[1] = 1 
@@ -19,9 +18,6 @@ def numTrees(n):
         for j in range(1,i+1):
             dp[i] += dp[j-1]*dp[i-j]
     return dp[-1]
-    """
-    
-
     """
     Comments: Oneliner
     def factorial(n):
