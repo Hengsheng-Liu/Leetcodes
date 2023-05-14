@@ -9,7 +9,7 @@ def preorderTraversal(root):
     Time:10mins 14sec
     Solve: yes
     Difficulty: Easy 
-    Comments
+    Comments:
     I believe that any way of traversal(pre,in,post) all have to use stack because is all DFS, 
     you have to all the way down in to the left tree then to the right tree. This problem is not hard but 
     I forgot to check empty tree in which keep give me None type error. 
